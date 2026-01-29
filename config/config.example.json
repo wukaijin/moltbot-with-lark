@@ -1,0 +1,25 @@
+{
+  "lark": {
+    "connectionMode": "websocket"
+  },
+  "moltbot": {
+    "modelName": "gpt-4",
+    "temperature": 0.7,
+    "maxTokens": 2000,
+    "streaming": true
+  },
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "features": {
+    "messageCards": true,
+    "fileAttachments": true,
+    "errorHandling": true,
+    "retryLogic": true
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}
